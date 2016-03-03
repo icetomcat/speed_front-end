@@ -1,0 +1,50 @@
+@import "../slick/slick-theme.less";
+
+.main-slider__container {
+	
+	overflow: hidden;
+	position: relative;
+}
+
+.main-slider__item {
+	
+	position: relative;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	height: 450px;
+	> img {
+		width: 100%;
+	}
+}
+
+.main-slider__item-info-container {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.main-slider__item-info-block {
+	text-align: center;
+	color: @gray-lighter;
+	width: 100%;
+	padding: 15px;
+	text-shadow: 1px 1px 1px #000;
+
+	background-color: fade(#000, 15%);
+	
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	-khtml-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+}

@@ -1,0 +1,37 @@
+.main-tech {
+	background-color: darken(@brand-info, 20%);
+	background-image: url(../assets/info-noise-layer.png);
+	padding: 15px 0;
+}
+
+.main-tech__tech {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.main-tech__tech-circle {
+	width: @main-tech-circle-size;
+	height: @main-tech-circle-size;
+	text-align: center;
+	.fa {
+		line-height: @main-tech-circle-size;
+	}
+	
+	border-radius: 50%;
+	background-color: @main-tech-circle-background-color;
+	color: @main-tech-circle-color;
+	font-size: @main-tech-circle-font-size;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+	margin-top: 10px;
+}
+
+.main-tech__tech-icons {
+	font-size: 4em;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+	padding-top: 10px;
+}
+
+.main-tech__tech-info-title {
+	padding: 10px 0;
+}

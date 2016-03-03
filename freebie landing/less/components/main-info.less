@@ -1,0 +1,40 @@
+.main-info {
+	background: url(../images/forest-background.jpg) no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	
+	color: @gray-lighter;
+	
+	.container {
+		background-color: rgba(0,0,0,0.3);
+		border-radius: @border-radius-large;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+.main-info__text {
+	p {
+		font-size: @font-size-large;
+	}
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.main-info__icon-border {
+	border: 1px solid #fff;
+	display: inline-flex;
+	width: 120px;
+	height: 120px;
+
+	align-items: center;
+	justify-content: center;
+	
+	transform: rotateZ(45deg);
+	
+	margin: 50px 0;
+}
+
+.main-info__icon {
+	transform: rotateZ(-45deg);
+	font-size: 3em;
+}

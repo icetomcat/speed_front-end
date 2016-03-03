@@ -1,0 +1,27 @@
+// out: ../css/style.css, compress: true, strictMath: true
+
+@import "bootstrap/bootstrap.less";
+@import "font-awesome/font-awesome.less";
+@import "variables.less";
+
+@font-face {
+	font-family: Lobster-Regular;
+	src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@import "components/main-menu.less";
+@import "components/main-header.less";
+@import "components/main-tech.less";
+@import "components/main-features.less";
+@import "components/main-title.less";
+@import "components/main-feedback.less";
+
+.form-control {
+	background-color: @gray-dark;
+	color: @text-color;
+	border-color: @gray-light;
+}
+
+.h3 {
+	font-family: Lobster-Regular;
+}

@@ -1,0 +1,37 @@
+// out: ../css/style.css, compress: true, strictMath: true
+
+@import "bootstrap/bootstrap.less";
+@import "font-awesome/font-awesome.less";
+@import "variables.less";
+
+@font-face {
+	font-family: Lobster-Regular;
+	src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+	font-family: PoiretOne-Regular;
+	src: url(../fonts/PoiretOne-Regular.ttf);
+}
+
+@import "components/main-header.less";
+@import "components/main-intro.less";
+@import "components/main-annonce.less";
+@import "components/main-form.less";
+@import "components/main-info.less";
+@import "components/main-footer.less";
+
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.main-container {
+	padding: 15px 0;
+}
+
+.border-redius-large {
+	border-radius: @border-radius-large;
+}

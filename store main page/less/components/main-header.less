@@ -1,0 +1,53 @@
+@block-height: 120px;
+
+.main-header__logo_img {
+	height: @block-height;
+}
+
+.main-header__block {
+	height: @block-height;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-header__phone {
+	.h4();
+}
+
+.main-header__work_time {
+	.text-muted();
+}
+
+.main-header__icon {
+	font-size: @font-size-h4;
+}
+
+.main-header__cart_block {
+	position: relative;
+}
+
+.main-header__menu_count {
+	position: absolute;
+	width: 30px;
+	height: 25px;
+	right: -15px;
+	top: -10px;
+	
+	padding: 3px;
+	box-sizing: padding-box;
+}
+
+.main-header__cart_count {
+	.main-header__menu_count();
+	background-color: @brand-success;
+	color: #fff;
+}
+
+.main-header__favorites_count {
+	.main-header__menu_count();
+	
+	border: 1px solid lighten(@brand-primary, 20%);
+	color: @gray;
+}

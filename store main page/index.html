@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=urf-8">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=4, user-scalable=yes">
+	<title>Speed Frontend (#Brackets) | BikeStore</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<base href="./" />
+</head>
+
+<body>
+	<div class="container main-header">
+		<div class="row">
+			<div class="col-sm-2 hidden-xs hidden-sm">
+				<div class="main-header__block">
+					<div class="text-center">
+						<span class="main-header__phone">8 (800) 888-88-88</span><br/>
+						<span class="main-header__work_time">пн-сб 09:00-18:00</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 hidden-xs hidden-sm">
+				<div class="main-header__block">
+					<div class="text-center">
+						<i class="fa fa-truck main-header__icon"></i><br/>
+						<span><b>Доставка по России</b></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2 text-center">
+				<div class="main-header__block main-header__logo">
+					<a>
+						<img src="images/logo.png" alt="" class="main-header__logo_img"/>
+					</a>
+				</div>
+				
+			</div>
+			<div class="col-sm-3 hidden-xs hidden-sm">
+				<div class="main-header__block">
+					<div class="text-center main-header__cart_block">
+						<div class="main-header__favorites_count">6</div>
+						<i class="fa fa-star-o main-header__icon"></i><br/>
+						<span><b>Избранное</b></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2 hidden-xs hidden-sm">
+				<div class="main-header__block">
+					<div class="text-center main-header__cart_block">
+						<div class="main-header__cart_count">20</div>
+						<i class="fa fa-shopping-cart main-header__icon"></i><br/>
+						<span><b>Корзина</b></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container mian-menu">
+		<div class="main-menu__top-menu">
+			<ul class="main-menu__top-menu-nav">
+				<li class="main-menu__top-menu-item"><a href="#">НОВИНКИ</a></li>
+				<li class="main-menu__top-menu-item"><a href="#">ХИТЫ</a></li>
+				<li class="main-menu__top-menu-item"><a href="#">СКИДКА</a></li>
+			</ul>
+		</div>
+		<hr/>
+		<div class="main-menu__bottom-menu">
+			<ul class="main-menu__bottom-menu-nav">
+				<li class="main-menu__bottom-menu-item_active"><a href="#">ГОРНЫЕ</a></li>
+				<li class="main-menu__bottom-menu-item"><a href="#">ДОРОЖНЫЕ</a></li>
+				<li class="main-menu__bottom-menu-item"><a href="#">BMX</a></li>
+				<li class="main-menu__bottom-menu-item main-menu__bottom-menu-item-search"><a href=""><i class="fa fa-search"></i></a></li>
+			</ul>
+		</div>
+		<hr/>
+	</div>
+	
+	<div class="container main-slider">
+		<div class="main-slider__container" id="main-slider__container">
+			<div class="main-slider__item">
+				<img src="images/slider-1.jpg" alt="">
+				<div class="main-slider__item-info-container">
+					<div class="main-slider__item-info-block">
+						<div class="h1">Заголовок слайда</div>
+						<div class="h3">
+							текст слайда
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slider__item">
+				<img src="images/slider-2.jpg" alt="">
+				<div class="main-slider__item-info-container">
+					<div class="main-slider__item-info-block">
+						<div class="h1">Заголовок слайда</div>
+						<div class="h3">
+							текст слайда
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slider__item">
+				<img src="images/slide-3.jpg" alt="">
+			</div>
+			<div class="main-slider__item">
+				<img src="images/slide-4.jpeg" alt="">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container main-info">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="main-info__block">
+					<i class="fa fa-reply main-info__icon"></i>
+					<div class="h2">Возврат товара</div>
+					<div class="h4">В течении 30-ти дней без объяснения причин</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="main-info__block">
+					<i class="fa fa-rocket main-info__icon"></i>
+					<div class="h2">Сервис доставки</div>
+					<div class="h4">По России, Беларуси и Украине</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="main-info__block">
+					<i class="fa fa-truck main-info__icon"></i>
+					<div class="h2">Привезем на выбор</div>
+					<div class="h4">Закажи что нравится и решай при получении</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="main-info__block">
+					<i class="fa fa-shopping-cart main-info__icon"></i>
+					<div class="h2">На любой вкус</div>
+					<div class="h4">Более 1000 различных товаров для выбора</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="main-info__subscribe-block">
+					<span class="h3">
+						Подписаться на новости
+					</span>
+					<br><br>
+					<form action="">
+						<div class="form-group">
+							<label for="main-info__subscribe-field">Узнавайте первыми о новостях и распродажах</label>
+							<input id="main-info__subscribe-field" class="form-control" type="email" placeholder="Адрес электронной почты">
+						</div>
+						<button class="btn btn-info"><span class="h4">Подписаться</span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container main-products">
+		<hr/>
+		<div class="text-center">
+			<div class="h2">
+				Рекомендуем
+			</div>
+		</div>
+		<div class="main-products__container" id="main-products__container">
+			<div class="main-products__item">
+				<div class="main-products__item-img-block">
+					<img src="images/2014_format_1112_1_59.jpg">
+				</div>
+				<div class="main-products__item-desc-block">
+					<span class="h4">Format 1112 (2014)</span>
+					<br><br>
+					<div class="clearfix">
+						<div class="pull-left">
+							<span class="h3">38 000</span><i class="glyphicon glyphicon-rub"></i>
+						</div>
+						<div class="pull-right">
+							<button class="btn btn-default"><span class="h4">Купить</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-products__item">
+				<div class="main-products__item-img-block">
+					<img src="images/2fa11a804a05a31d1d6185bc634ff173.jpg">
+				</div>
+				<div class="main-products__item-desc-block">
+					<span class="h4">Format 1112 (2014)</span>
+					<br><br>
+					<div class="clearfix">
+						<div class="pull-left">
+							<span class="h3">45 000</span><i class="glyphicon glyphicon-rub"></i>
+						</div>
+						<div class="pull-right">
+							<button class="btn btn-default"><span class="h4">Купить</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-products__item">
+				<div class="main-products__item-img-block">
+					<img src="images/4a6435b8b6e65221c03b247d0b8118c7.jpg">
+				</div>
+				<div class="main-products__item-desc-block">
+					<span class="h4">Format 1112 (2014)</span>
+					<br><br>
+					<div class="clearfix">
+						<div class="pull-left">
+							<span class="h3">26 000</span><i class="glyphicon glyphicon-rub"></i>
+						</div>
+						<div class="pull-right">
+							<button class="btn btn-default"><span class="h4">Купить</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-products__item">
+				<div class="main-products__item-img-block">
+					<img src="images/693c8196b34e03b1d268320647d1ac7f.jpg">
+				</div>
+				<div class="main-products__item-desc-block">
+					<span class="h4">Format 1112 (2014)</span>
+					<br><br>
+					<div class="clearfix">
+						<div class="pull-left">
+							<span class="h3">78 000</span><i class="glyphicon glyphicon-rub"></i>
+						</div>
+						<div class="pull-right">
+							<button class="btn btn-default"><span class="h4">Купить</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-products__item">
+				<div class="main-products__item-img-block">
+					<img src="images/6ff428450271ed2d0692d93594e8130a.jpg">
+				</div>
+				<div class="main-products__item-desc-block">
+					<span class="h4">Format 1112 (2014)</span>
+					<br><br>
+					<div class="clearfix">
+						<div class="pull-left">
+							<span class="h3">58 000</span><i class="glyphicon glyphicon-rub"></i>
+						</div>
+						<div class="pull-right">
+							<button class="btn btn-default"><span class="h4">Купить</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container main-social">
+		<hr/>
+		<div class="text-center">
+			<div class="h2">
+				Мы в соцсетях
+			</div>
+		</div>
+		<div class="text-center">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="main-social__block">
+						<div class="main-social__sn-title">Facebook&nbsp;&nbsp;&nbsp;</div>
+						<div class="main-social__sn-logo main-social__sn-logo-facebook">
+							<div class="main-social__sn-logo-left"><i class="fa fa-facebook"></i></div>
+							<div class="main-social__sn-logo-right">Like</div>
+						</div>
+						<div class="main-social__sn-count main-social__sn-count_facebook">1k <div class="main-social__sn-count-arrow main-social__sn-count-arrow_facebook"></div></div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="main-social__block">
+						<div class="main-social__sn-title">Vkontakte&nbsp;&nbsp;&nbsp;</div>
+						<div class="main-social__sn-logo main-social__sn-logo-vkontakte">
+							<div class="main-social__sn-logo-left"><i class="fa fa-vk"></i></div>
+							<div class="main-social__sn-logo-right"><i class="fa fa-heart"></i></div>
+						</div>
+						<div class="main-social__sn-count main-social__sn-count_vkontakte">896 <div class="main-social__sn-count-arrow main-social__sn-count-arrow_vkontakte"></div></div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="main-social__block">
+						<div class="main-social__sn-title">Twitter&nbsp;&nbsp;&nbsp;</div>
+						<div class="main-social__sn-logo main-social__sn-logo-twitter">
+							<div class="main-social__sn-logo-left"><i class="fa fa-twitter"></i></div>
+							<div class="main-social__sn-logo-right">Tweet</div>
+						</div>
+						<div class="main-social__sn-count main-social__sn-count_twitter">320 <div class="main-social__sn-count-arrow main-social__sn-count-arrow_twitter"></div></div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="main-social__block">
+						<div class="main-social__sn-title">Instagram&nbsp;&nbsp;&nbsp;</div>
+						<div class="main-social__sn-logo main-social__sn-logo-instagram">
+							<div class="main-social__sn-logo-left"><i class="fa fa-instagram"></i></div>
+						</div>
+						<div class="main-social__sn-count main-social__sn-count_instagram">745 <div class="main-social__sn-count-arrow main-social__sn-count-arrow_instagram"></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<div class="text-justify main-social__text">
+			<p><b>Интернет магазин лучших велосипедов в мире</b></p>
+			<p>
+				С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание модели развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание модели развития. Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции требуют от нас анализа модели развития. Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки и реализации систем массового участия. 
+			</p>
+			<p>
+				Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке соответствующий условий активизации. С другой стороны дальнейшее развитие различных форм деятельности способствует подготовки и реализации направлений прогрессивного развития. Товарищи! консультация с широким активом способствует подготовки и реализации систем массового участия. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности требуют от нас анализа новых предложений. Не следует, однако забывать, что начало повседневной работы по формированию позиции позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Не следует, однако забывать, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. 
+			</p>
+		</div>
+	</div>
+	
+	<div class="container main-footer">
+		<hr/>
+		<div class="row">
+			<div class="col-sm-6">
+				<span class="h1">Bikestore</span>
+			</div>
+			<div class="col-sm-6 text-right main-footer__social-icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-vk"></i>
+				<i class="fa fa-google-plus"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-pinterest-p"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-odnoklassniki"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<br/>
+				<span class="main-header__phone">8 (800) 888-88-88</span><br/>
+				<span class="main-header__work_time">пн-сб 09:00-18:00</span>
+				<br/>
+				<br/>
+				<a href="#"><span class="h4"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Написать письмо</span></a>
+				<br/>
+				<br/>
+				&copy; 2014-2016 Bikestore
+				<br>
+				Все права защищены
+				<br>
+				Все цены указаны в рублях с учетом НДС
+			</div>
+			<div class="col-sm-2">
+				<span class="h4">О компании</span>
+				<br><br>
+				<a href="#">Контакты</a>
+				<br>
+				<a href="#">Работы в магазине</a>
+			</div>
+			<div class="col-sm-2">
+				<span class="h4">Сервис</span>
+				<br><br>
+				<a href="#">Доставка</a>
+				<br>
+				<a href="#">Оплата</a>
+				<br>
+				<a href="#">Сертификаты</a>
+			</div>
+			<div class="col-sm-2">
+				<span class="h4">Личный кабинет</span>
+				<br><br>
+				<a href="#">Мои заказы</a>
+				<br>
+				<a href="#">Оплата</a>
+			</div>
+			<div class="col-sm-2">
+				<span class="h4">Сотрудничество</span>
+				<br><br>
+				<a href="#">Оптовые продажи</a>
+				<br>
+				<a href="#">Поставщикам</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main-footer__bottom"></div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/vue.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
